@@ -43,7 +43,6 @@ def music_recs(artist):
     if a:
         newUrl = main_url + artist
         r1 = requests.get(main_url)
-
         print newUrl
     #for line in soup:
      #   print type(line)
